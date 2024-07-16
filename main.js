@@ -2,10 +2,17 @@ let a = 4;
 let b = 7;
 let c = -2;
 
-console.log(`Day la dap an: ${a+b+c}, ${a-b-c}`)
+//console.log(`Day la dap an: ${a+b+c}, ${a-b-c}`)
 
-let text = "database su xong";
+let text = "database sử xong";
 
-console.log(`Số kí tự ==> ${text.split( ).length}`);
-console.log(`Số dư ==> ${text.replace().length%2}`);
+let tach_chuoi = text.split(' ');
+
+let noi_chuoi = tach_chuoi.join('');
+
+console.log(`Số kí tự (Không tính khoảng trắng) là : ${noi_chuoi.length}`)
+
+console.log(`Số dư khi chia tổng số cho 2 là: ${noi_chuoi.length%2}`)
+
+
 
